@@ -1,14 +1,19 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-    Git creates a new hidden directory with metadata and stuff. Because otherwise I wouldn't be able to use Git. Duh.
+    Git creates a new hidden directory with metadata and stuff. Because 
+    otherwise I wouldn't be able to use Git. Duh.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-    It's different in that it only contains the files that have been added to it. It allows you to only commit certain files instead of all of them at once.
+    It's different in that it only contains the files that have been added to 
+    it. It allows you to only commit certain files instead of all of them at 
+    once.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+    By adding only the file(s) that are necessary for that change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
